@@ -1,0 +1,21 @@
+ -- create table people(
+--  id int not null,
+--  email varchar(50),
+--  name varchar(50),
+--  password varchar(50),
+  -- cityid varchar(50),
+-- primary key(id))
+-- cityid varchar(50),-- 
+-- show tables 
+-- create table city(
+-- id int not null,
+   -- name varchar(50),
+-- country varchar(50)
+-- )
+-- show tables
+-- cityid varchar(50),
+
+  -- select * from people left join city on people.city_id = city.id 
+  -- alter table people add column city_id varchar(50)
+  update person set name = 'new name' where id=1 
+--   update person set password = '12345' where email = 'nandini@gmail.com'
